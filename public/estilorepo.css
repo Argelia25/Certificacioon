@@ -1,0 +1,51 @@
+@page{
+    margin: 0cm 0cm;
+    text-align: center;
+}
+body{
+    margin:4cm 1cm 1cm;
+    
+}
+header{
+    position: fixed;
+    top: 0cm;
+    left: 0cm;
+    right: 0cm;
+    background-color:rgb(76, 160, 76);
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+footer{
+    position: fixed;
+    bottom: 0cm;
+    left: 0cm;
+    right: 0cm;
+    height: 2cm;
+    background-color:rgb(76, 160, 76);
+    color: white;
+    text-align: center;
+    line-height: 35px;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
