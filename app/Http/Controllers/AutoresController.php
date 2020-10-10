@@ -31,23 +31,13 @@ class AutoresController extends Controller
         return view('autores.index', compact('autores'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\View\View
-     */
+    
     public function create()
     {
         return view('autores.create');
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     *
-     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
-     */
+  
     public function store(Request $request)
     {
         
@@ -58,13 +48,7 @@ class AutoresController extends Controller
         return redirect('autores')->with('flash_message', 'Autore added!');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     *
-     * @return \Illuminate\View\View
-     */
+  
     public function show($id)
     {
         $autore = Autore::findOrFail($id);
@@ -72,13 +56,7 @@ class AutoresController extends Controller
         return view('autores.show', compact('autore'));
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     *
-     * @return \Illuminate\View\View
-     */
+  
     public function edit($id)
     {
         $autore = Autore::findOrFail($id);
@@ -86,14 +64,7 @@ class AutoresController extends Controller
         return view('autores.edit', compact('autore'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param \Illuminate\Http\Request $request
-     * @param  int  $id
-     *
-     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
-     */
+    
     public function update(Request $request, $id)
     {
         
@@ -105,13 +76,6 @@ class AutoresController extends Controller
         return redirect('autores')->with('flash_message', 'Autore updated!');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     *
-     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
-     */
     public function destroy($id)
     {
         Autore::destroy($id);
