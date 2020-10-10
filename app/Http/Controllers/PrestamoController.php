@@ -23,7 +23,7 @@ class PrestamoController extends Controller
 
         return view('prestamo.index', compact('prestamo'));
     }
-
+vz<g
   
     public function create()
     {
