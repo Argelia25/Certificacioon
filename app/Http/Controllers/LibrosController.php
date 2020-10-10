@@ -50,7 +50,7 @@ class LibrosController extends Controller
          //Se redirecciona al formulario de creacion con los datos de 3 tablas para usarlos en selects del formulario
         return view('libros.create', ['editoriales'=> $dato1,'autores' => $dato2,'ctegorias'=> $dato3]);
     }
-afsgf
+
     //La funcion store es la encargada de recibir los datos y almacenarlos dentro de la base de datos
     public function store(Request $request)
     {
