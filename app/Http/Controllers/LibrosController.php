@@ -30,7 +30,7 @@ class LibrosController extends Controller
         ->select('libros.id','libros.Titulo', 'editorials.Editorial as edit', 'autores.Nombre as Autor',  'ctegorias.Categoria as cat',
         'libros.paginas', 'libros.Disponibles', 'libros.Idioma','Libros.Foto')
         ->get();
-
+sfdsgdgfdhgfhdgqt2esfasdF<zcewfSEFEWSDFqeqer
        
         //Se redirige a la pagina de index con los datos de libros
         return view('libros.index',  compact('libros'));
