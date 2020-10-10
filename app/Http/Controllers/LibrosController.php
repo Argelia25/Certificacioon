@@ -31,7 +31,6 @@ class LibrosController extends Controller
         'libros.paginas', 'libros.Disponibles', 'libros.Idioma','Libros.Foto')
         ->get();
 
-        swrwaaaaaaaaafw
        
         //Se redirige a la pagina de index con los datos de libros
         return view('libros.index',  compact('libros'));
