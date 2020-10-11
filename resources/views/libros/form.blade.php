@@ -19,7 +19,7 @@
     
     {!! $errors->first('Autor','<div class="invalid-feedback">:message</div>') !!}
 </div>
-
+sdfsf
 
 <div class="form-group">
 
