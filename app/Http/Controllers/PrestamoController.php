@@ -23,11 +23,10 @@ class PrestamoController extends Controller
 
         return view('prestamo.index', compact('prestamo'));
     }
-vz<g
-  
+
     public function create()
     {
-        $dato1 = DB::table('usuarios')->get();
+        $dato1 = DB  :: table ('usuarios') ->get();
         $dato2 = DB::table('libros')->get();
         return view('prestamo.create', ['usuarios'=> $dato1,'libros' => $dato2]);
     }
