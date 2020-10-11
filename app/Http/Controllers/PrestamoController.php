@@ -34,7 +34,7 @@ class PrestamoController extends Controller
     public function store(Request $request)
     {
         
-        
+  sda  
         $datosPrestamo=request()->except('_token');
         $lib=request()->get('Libro');
         
