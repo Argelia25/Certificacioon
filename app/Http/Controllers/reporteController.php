@@ -21,5 +21,4 @@ class reporteController extends Controller {
         
     } 
  
-}
-cvyhkvyih
+}SZDBFDRHNB
