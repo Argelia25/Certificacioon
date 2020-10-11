@@ -39,3 +39,4 @@ Route::resource('usuario', 'UsuarioController')->middleware('auth');
 Route::resource('libros', 'LibrosController')->middleware('auth');
 
 Route::get('/prueba', 'reporteController@PDFprestamo')->name('descargarpdf');
+azsbgd
