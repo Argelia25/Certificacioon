@@ -92,4 +92,4 @@ class PrestamoController extends Controller
 
         return redirect('prestamo')->with('flash_message', 'Prestamo cocluidoS!');
     }
-}
+}cfggc
