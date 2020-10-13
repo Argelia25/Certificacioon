@@ -19,8 +19,7 @@
                         @endif
 
                         <form method="POST" action="{{ url('/editorial') }}" accept-charset="UTF-8" class="form-horizontal" enctype="multipart/form-data">
-                            {{ csrf_field() }}
-
+                            {{ csrf_field() }}acWFf
                             @include ('editorial.form', ['formMode' => 'Crear'])
 
                         </form>
