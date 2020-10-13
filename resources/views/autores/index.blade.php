@@ -7,7 +7,7 @@
             @include('admin.sidebar')
 
             <div class="col-md-9">
-                
+                xgh
                     <Center>
                         <h1>Autores</h1>
                      </Center>
