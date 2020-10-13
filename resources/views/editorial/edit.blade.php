@@ -9,7 +9,7 @@
                 <div class="card">
                     <div style="background-color:rgb(103, 241, 103)"  class="card-header"><h1>Editar Editorial #{{  $editorial->id }}</h1></div>
 
-                  gvkhvjkv  
+                  
                         @if ($errors->any())
                             <ul class="alert alert-danger">
                                 @foreach ($errors->all() as $error)
