@@ -7,7 +7,7 @@
             @include('admin.sidebar')
 
             <div class="col-md-9">
-               
+               zxxZXxcccccccc
                 <Center>
                     <h1>Tipos de categorias</h1>
                  </Center>
