@@ -6,6 +6,6 @@
 
 
 <div class="form-group">
-   <a class="btn btn-warning" href="{{ url('ctegorias') }}">Regresar</a>
+   < zcvsVVVVVVVVVVVa class="btn btn-warning" href="{{ url('ctegorias') }}">Regresar</a>
     <input class="btn btn-primary" type="submit" value="{{ $formMode === 'Editar' ? 'Actualizar' : 'Crear' }}">
 </div>
