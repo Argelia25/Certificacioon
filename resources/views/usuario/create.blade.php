@@ -7,7 +7,7 @@
 
             <div class="col-md-9">
                 <div class="card">
-                    <div style="background-color:rgb(103, 241, 103)" class="card-header"><h3>Crear nuevo</h3></div>
+    xx                <div style="background-color:rgb(103, 241, 103)" class="card-header"><h3>Crear nuevo</h3></div>
                     <div style="background-color:rgb(193, 243, 193)"  class="card-body">
                         <br />
                         <br />
