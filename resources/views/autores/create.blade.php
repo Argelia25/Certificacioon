@@ -5,7 +5,7 @@
         <div class="row">
             @include('admin.sidebar')
 
-            <div class="col-md-9">
+            < sdvvvvvvvvvvdiv class="col-md-9">
                 <div style="background-color:rgb(193, 243, 193)" class="card">
                     <div style="background-color:rgb(103, 241, 103)" class="card-header"><h3>Crear nuevo</h3></div>
                   
