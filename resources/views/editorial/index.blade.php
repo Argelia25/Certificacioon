@@ -15,7 +15,7 @@
                         <div>
                         <a href="{{ url('/editorial/create') }}" class="btn btn-success btn-sm" title="Nueva Editorial">
                             <i class="material-icons">add</i>Nuevo
-                        </a></div>
+                        </a></div>cwaece    wv
 
                 
                         <br/>
