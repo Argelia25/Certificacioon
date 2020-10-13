@@ -9,7 +9,7 @@
     {!! $errors->first('Apellido', '<p class="help-block">:message</p>') !!}
 </div>
 
-
+cWFE
 <div class="form-group">
  <a class="btn btn-warning" href="{{ url('autores') }}">Regresar</a>
     <input class="btn btn-primary" type="submit" value="{{ $formMode === 'Editar' ? 'Actualizar' : 'Crear' }}">
